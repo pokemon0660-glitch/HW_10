@@ -63,3 +63,11 @@
    63  git merge develop
    64  git log --oneline
    65  history > command_list.csv
+   66  git add .
+   67  git commit -m "Add command_list.csv"
+   68  git push -u origin master
+   69  cat command_list.csv 
+   70  clear
+   71  git remote add origin https://github.com/pokemon0660-glitch/HW_10
+   72  rm command_list.csv
+   73  history > command_list.csv
